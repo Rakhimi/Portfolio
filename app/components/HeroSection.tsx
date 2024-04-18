@@ -7,7 +7,7 @@ import Link from "next/link";
 import Image from 'next/image';
 
 const images = [
-  {src:'/images/TypeScript.png', alt:'TypeScript Logo' },
+  {src:'/images/Typescript.png', alt:'TypeScript Logo' },
   {src:'/images/React.png', alt:'React Logo' },
   {src:'/images/Next.png', alt:'Next Logo' },
   {src:'/images/Prisma.png', alt:'Prisma Logo' },
