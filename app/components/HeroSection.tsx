@@ -42,12 +42,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-2 lg:text-lg">
-            I'm a freelancer from a low cost living standard country that actually speaks good english.
+            I&apos;m a freelancer from a low cost living standard country that actually speaks good english.
           </p>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg">
-            I'm flexible with time and a quick learner. Check out my project video
+            I&apos;m flexible with time and a quick learner. Check out my project video
           </p>
-
           <div className='flex gap-2 bg-gray-400 p-2 rounded-lg w-1/2'>
           {images.map((img, index) => (
             <Image 
