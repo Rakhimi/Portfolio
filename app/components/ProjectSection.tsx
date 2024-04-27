@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Next js E-Commerce Project",
-    description: "This is a Next js Typescript Tailwind Project. It use Prisma as Orm and connected to Supabase database. Connected to Uploadthing as file repository. It has many features like search, filter, favourite and a responsive design that adapts flawlessly to any device",
+    description: "This project is built using Next.js with TypeScript and Tailwind CSS. It uses Prisma as its database ORM and is connected to a Supabase database. Additionally, it integrates with Uploadthing as a file repository. With features like search, filter, and favorite, it provides a user-friendly experience. Plus, its responsive design ensures smooth viewing on any device.",
     image: "/images/CarilaPortfolio.PNG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Rakhimi/carila",

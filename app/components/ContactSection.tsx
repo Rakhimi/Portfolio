@@ -28,10 +28,10 @@ const ContactSection = () => {
       setEmail('');
       setMessage('');
   
-      toast('Message sent successfully');
+      alert('Message sent successfully');
     } catch (error) {
       console.error('Error sending message:', error);
-      toast('Something went wrong. Please try again later.');
+      alert('Something went wrong. Please try again later.');
     }
   };
 
