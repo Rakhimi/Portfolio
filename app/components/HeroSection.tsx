@@ -45,7 +45,7 @@ const HeroSection = () => {
             I&apos;m a freelancer from a country with a lower cost of living, but I&apos;m fluent in English. This allows me to offer competitive rates while maintaining high-quality communication.
           </p>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg">
-            I'm flexible with time and a quick learner. Check out my{' '} 
+            I&apos;m flexible with time and a quick learner. Check out my{' '}
             <a 
               href="https://www.youtube.com/@CarilaCode-rn8ey" 
               target="_blank" 
