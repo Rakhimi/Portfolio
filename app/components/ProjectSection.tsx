@@ -12,8 +12,22 @@ const projectsData = [
     image: "/images/CarilaPortfolio.PNG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Rakhimi/carila",
-    previewUrl: "https://carila.vercel.app/",
-    video:"https://youtu.be/dKHpw7Cc7ik",
+  },
+  {
+    id: 1,
+    title: "Korean Translation Electron Desktop App",
+    description: "This app retrieve a lyric from genius API, translate it, word by word and line by line with Google Cloud Translation API. Store the translations in Json file in Google Drive folder",
+    image: "/images/Electron.PNG",
+    tag: ["All", "Desktop"],
+    gitUrl: "https://github.com/Rakhimi/Electron-Korean-Translation",
+  },
+  {
+    id: 1,
+    title: "Korean Lyrics Translation Web App",
+    description: "This web app access youtube videos through Youtube API and retrieve the translated lyrics file for the chosen song from Google Drive Folder. No translation process happened here. The english translation of the korean word will popped up when the cursor hovers over it",
+    image: "/images/koreanapp.PNG",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Rakhimi/Korean_Translation",
   },
   
 ];
@@ -49,8 +63,6 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-              video={project.video}
             />
           </motion.li>
         ))}
